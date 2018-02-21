@@ -1,0 +1,47 @@
+C:\Users\eclai\Desktop\DojoAssignments\WebFundamentals\Git> md GitHubRepoAssignment
+
+C:\Users\eclai\Desktop\DojoAssignments\WebFundamentals\Git> cd GitHubRepoAssignment
+
+C:\Users\eclai\Desktop\DojoAssignments\WebFundamentals\Git\GitHubRepoAssignment> git init
+Initialized empty Git repository in C:/Users/eclai/Desktop/DojoAssignments/WebFundamentals/Git/GitHubRepoAssignment/.git/
+
+C:\Users\eclai\Desktop\DojoAssignments\WebFundamentals\Git\GitHubRepoAssignment> copy NUL readme.md
+        1 file(s) copied.
+
+C:\Users\eclai\Desktop\DojoAssignments\WebFundamentals\Git\GitHubRepoAssignment> readme.md
+
+C:\Users\eclai\Desktop\DojoAssignments\WebFundamentals\Git\GitHubRepoAssignment> git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        readme.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\eclai\Desktop\DojoAssignments\WebFundamentals\Git\GitHubRepoAssignment> git add .
+
+C:\Users\eclai\Desktop\DojoAssignments\WebFundamentals\Git\GitHubRepoAssignment> git commit -m "Added readme file"
+[master (root-commit) 8a5d8f9] Added readme file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 readme.md
+
+C:\Users\eclai\Desktop\DojoAssignments\WebFundamentals\Git\GitHubRepoAssignment>git log
+commit 8a5d8f92ee359ed3a26462f4459cf875cd375dd1 (HEAD -> master)
+Author: EmilyC <eclairebenn@outlook.com>
+Date:   Tue Feb 20 18:11:40 2018 -0800
+
+    Added readme file
+
+C:\Users\eclai\Desktop\DojoAssignments\WebFundamentals\Git\GitHubRepoAssignment>git remote add origin https://github.com/eclairebenn/GitHubRepoAssignment.git
+
+C:\Users\eclai\Desktop\DojoAssignments\WebFundamentals\Git\GitHubRepoAssignment> git push -u origin master
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 216 bytes | 216.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/eclairebenn/GitHubRepoAssignment.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
